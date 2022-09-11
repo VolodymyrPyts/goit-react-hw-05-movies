@@ -7,8 +7,11 @@ import { SharedLayout } from './SharedLayout/SharedLayout';
 
 import Home from '../Pages/Home';
 import Movies from '../Pages/Movies';
+import NotFound from 'Pages/NotFound';
 // import MovieDetails from '../Pages/MovieDetails';
 // import { FormSearch } from './FormSearch/FormSearch';
+
+// https: github.com/HryhoriiAndriiets1974/goit-react-hw-05-movies/blob/main/src/pages/Home/Home.js
 
 export const App = () => {
   return (
@@ -20,6 +23,7 @@ export const App = () => {
           <Route path="cast" element={<Cast />} />
           <Route path="reviews" element={<Reviews />} />
         </Route> */}
+        <Route path="*" element={<NotFound />}></Route>
       </Route>
     </Routes>
   );
