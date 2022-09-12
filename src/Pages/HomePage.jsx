@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import { MovieItem } from '../components/MovieItem/MovieItem';
+import  MovieItem  from '../components/MovieItem/MovieItem';
 import {GetTrendMovies} from '../Services/Api';
 
-const Home = () => {
+const HomePage = () => {
   const [movies, setMovies] = useState('');
  
   useEffect(() => {
@@ -28,4 +28,4 @@ return (
 
 };
 
-export default Home;
+export default HomePage;
