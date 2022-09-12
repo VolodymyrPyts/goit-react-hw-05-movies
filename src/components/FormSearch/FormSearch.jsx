@@ -13,5 +13,5 @@ export const FormSearch = ({ value, onChange }) => {
         />
       </Wrapper>
     </>
-  );
-};
+  )
+}

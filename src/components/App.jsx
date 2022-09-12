@@ -5,9 +5,9 @@ import { SharedLayout } from './SharedLayout/SharedLayout';
 // import { Cast } from './Cast/Cast';
 // import { Reviews } from './Reviews/Reviews';
 
-import Home from '../Pages/Home';
+import Home from '../Pages/HomePage';
 import Movies from '../Pages/Movies';
-import NotFound from 'Pages/NotFound';
+import NotFound from 'Pages/NotFoundPages';
 // import MovieDetails from '../Pages/MovieDetails';
 // import { FormSearch } from './FormSearch/FormSearch';
 
