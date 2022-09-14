@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import  MovieItem  from '../components/MovieItem/MovieItem';
-import {GetTrendMovies} from '../Services/Api';
+import {getTrendMovies} from '../Services/Api';
 
 const HomePage = () => {
   const [movies, setMovies] = useState('');
@@ -8,7 +8,7 @@ const HomePage = () => {
   useEffect(() => {
   async function getMovies() {
     try {
-      const data = await GetTrendMovies();
+      const data = await getTrendMovies();
       const trendieMovies = data.results;
       setMovies(trendieMovies);
       return;

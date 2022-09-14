@@ -1,10 +1,10 @@
+
 import { PropTypes } from 'prop-types';
 import { Link, useLocation } from 'react-router-dom';
 import { Container, Wrapper, MovieName } from './MovieItem.styled';
 
 const MovieItem = ({ movies }) => {
   const location = useLocation();
-  console.log(location.state);
   return (
     <Container>
       {movies.map(({ poster_path, id, title }) => (
