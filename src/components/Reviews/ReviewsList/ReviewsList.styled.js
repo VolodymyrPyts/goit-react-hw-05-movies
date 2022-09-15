@@ -11,7 +11,6 @@ display: block;
 width: 100%
 `
 export const Content = styled.p`
-font-style: italic;
 font-size: 24px;
 padding: 16px;
 `

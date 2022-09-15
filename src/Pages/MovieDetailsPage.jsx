@@ -12,15 +12,13 @@ import {
   Overview,
   DetailsLink,
   LinkList,
-} from './PageStyled/MovieDetailsPage.styled'
+} from './PageStyled/MovieDetailsPage.styled';
 
 const MovieDetailsPage = () => {
   const { id } = useParams();
   const [movie, setMovie] = useState({});
   const location = useLocation();
   const backLinkHref = location.state?.from ?? '/movies';
-
- 
 
   useEffect(() => {
     async function getFilm() {
@@ -35,7 +33,6 @@ const MovieDetailsPage = () => {
     getFilm();
   }, [id]);
 
-  
   const { poster_path, title, overview, tagline } = movie;
 
   return (

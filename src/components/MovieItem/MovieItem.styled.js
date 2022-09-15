@@ -2,15 +2,15 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 margin-top: 32px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 320px);
+  display: flex;
+  flex-wrap: wrap; 
   gap: 16px;
     
 `;
 
 export const Wrapper = styled.div`
-margin-bottom: 20px;
-flex-basis: calc((100% - 32px) / 3);
+margin-bottom: 16px;
+flex-basis: calc((100% - 48px) / 3);
 border: 1px solid grey;
 border-radius: 4px;
 cursor: pointer;

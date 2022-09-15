@@ -6,8 +6,7 @@ display: flex;
 padding: 32px 32px;
 `
 export const Poster = styled.img`
-width: 400px;
-margin-right: 30px;
+width: 300px;
 `;
 
 export const DetailsWrapper = styled.div`
@@ -40,6 +39,7 @@ align-items: flex-end;
 text-align: center;
 margin: 0px;
 padding: 0px;
+list-style: none;
 `
 
 export const DetailsLink = styled(Link)`
@@ -51,10 +51,11 @@ font-size: 24px;
   text-decoration: none;
   color: black;
   font-weight: 500;
-  border: 1px solid orangered;
+  border: 1px solid black;
   &:hover,
   &:focus {
     color: white;
     background-color: orangered;
+    border: 1px solid orangered;
   }
 `;

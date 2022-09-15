@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import SearchBar from 'components/SearchBar/SearchBar';
 import MovieItem from 'components/MovieItem/MovieItem';
-import { getSearchedMovies } from '../Services/Api'
+import { getSearchedMovies } from '../Services/Api';
 import { Message } from './PageStyled/MoviesPage.styled';
 
 const MoviesPage = () => {

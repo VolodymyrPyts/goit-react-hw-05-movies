@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { ImSearch } from 'react-icons/im';
+import { MdManageSearch } from "react-icons/md";
 
 export const SearcHeader = styled.header`
     top: 0;
@@ -49,7 +49,7 @@ export const SearchButton = styled.button`
     }
 `
 
-export const SearchIcon = styled(ImSearch)`
+export const SearchIcon = styled(MdManageSearch)`
 width: 24px;
 height: 48px;
 fill: orangered;
