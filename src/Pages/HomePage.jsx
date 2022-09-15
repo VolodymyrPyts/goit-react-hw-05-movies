@@ -3,7 +3,7 @@ import  MovieItem  from '../components/MovieItem/MovieItem';
 import {getTrendMovies} from '../Services/Api';
 
 const HomePage = () => {
-  const [movies, setMovies] = useState('');
+  const [movies, setMovies] = useState([]);
  
   useEffect(() => {
   async function getMovies() {
