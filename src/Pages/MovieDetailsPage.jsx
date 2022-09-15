@@ -20,7 +20,7 @@ const MovieDetailsPage = () => {
   const location = useLocation();
   const backLinkHref = location.state?.from ?? '/movies';
 
-  console.log(location);
+ 
 
   useEffect(() => {
     async function getFilm() {
@@ -35,7 +35,7 @@ const MovieDetailsPage = () => {
     getFilm();
   }, [id]);
 
-  console.log(movie);
+  
   const { poster_path, title, overview, tagline } = movie;
 
   return (
